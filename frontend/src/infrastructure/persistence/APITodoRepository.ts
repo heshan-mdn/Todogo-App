@@ -10,7 +10,7 @@ export class APITodoRepository implements ITodoRepository {
 
   constructor() {
     this.baseUrl =
-      process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080/api/v1';
+      process.env.NEXT_PUBLIC_API_URL || '/api/v1';
   }
 
   /**
