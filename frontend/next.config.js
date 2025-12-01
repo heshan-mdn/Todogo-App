@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'standalone',
   reactStrictMode: true,
+  optimizeFonts: false,
   poweredByHeader: false,
   compress: true,
   env: {

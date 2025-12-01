@@ -148,7 +148,7 @@ export function TodoItem({ todo }: TodoItemProps) {
           <DialogHeader>
             <DialogTitle>Delete Todo</DialogTitle>
             <DialogDescription>
-              Are you sure you want to delete "{todo.title}"? This action cannot
+              Are you sure you want to delete &quot;{todo.title}&quot;? This action cannot
               be undone.
             </DialogDescription>
           </DialogHeader>
