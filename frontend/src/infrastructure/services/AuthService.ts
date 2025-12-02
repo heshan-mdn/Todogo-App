@@ -1,6 +1,7 @@
 import { LoginInput, RegisterInput } from '@/shared/lib/validators';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || '/api/v1';
+console.log('AuthService API_URL:', API_URL);
 
 export interface AuthResponse {
   token: string;
