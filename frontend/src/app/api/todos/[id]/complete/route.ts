@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const API_BASE_URL = process.env.API_BASE_URL || 'http://localhost:8080/api/v1';
+const API_BASE_URL = process.env.API_BASE_URL || 'http://backend:8080/api/v1';
 
 /**
  * PATCH /api/todos/[id]/complete
